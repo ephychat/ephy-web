@@ -1,0 +1,95 @@
+/*-----------------------------------------*
+ *         Overriden Default Styles        *
+ *-----------------------------------------*/
+::-webkit-scrollbar { background-color: transparent; }
+
+body { background-color: #f5f5f5; }
+
+/*-----------------------------------------*
+ *        Overriden Framework Styles       *
+ *-----------------------------------------*/  
+.siimple-grid-row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+/*---------------------------------------*
+ *            Custom Styles              *
+ *  Group all classes and ids seperately *
+ *---------------------------------------*/
+
+ .ephy-message-card {
+    bottom: 0;
+    height: 80px;
+    width: 95%;
+    padding: 4px 10px 0 10px;
+    position: fixed;
+    margin-top: 10px;
+}
+
+.ephy-textarea {
+    background-color: #c6d7e8;
+    resize: none;
+    position: relative;
+    margin-top: 8px;
+    border-radius: 3px;
+    box-shadow: 0px 0px 2px 2px rgba(3, 3, 3, 0.05);
+    height: 42px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    overflow-y: auto;
+    overflow-x: hidden;
+    min-height: 20px;
+    max-height: 100px;
+    padding-left: 56px;
+    padding-right: 48px;
+    color: #333;
+}
+
+.ephy-duration-btn {
+    background-color: #333;
+    border: none;
+    color: #def;
+    font-size: 16px;
+    outline: none;
+    padding: 12px 11px 11px 11px;
+    margin-top: -12px;
+}
+
+#ephy-timer-btn, 
+#ephy-send-btn {
+    position: relative;
+    top: -42px;
+    padding: 9px 16px 9px 16px;
+    display: inline;
+}
+
+#ephy-timer-btn { float: left; }
+
+#ephy-send-btn { float: right; }
+
+#ephy-time-duration-wrapper { 
+    position: relative;
+    background-color: #333;
+    top: -32px;
+    padding: 10px 0 11px 0;
+    display: inline;
+    visibility: collapse;
+}
+
+#ephy-typing-status-txt { visibility: hidden; }
+
+
+/*------------------------------------------ 
+ *                 Effects                 *
+ *  Group all classes and ids with effecfs *
+ *  together                               *
+ ------------------------------------------*/
+
+.ephy-duration-btn:hover { background-color: #444; }
+
+#ephy-send-btn:hover, 
+#ephy-timer-btn:hover { background-color: #c6d7e8; }
+
+#ephy-send-btn:active, 
+#ephy-timer-btn:active { background-color: #b8c6d0; }
